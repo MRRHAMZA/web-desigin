@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar{
+    height: 52px;
+    background-color: rgb(0, 0, 0);
+}
+.logo{
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+}
+.logo img{
+    margin-left: 125px;
+    margin-top: 6px;
+}
+.nav_links{
+    display: inline-block;
+    height: 30%;
+    width: 40%;
+    text-align: center;
+}
+.list_items a{
+    background-color: rgb(235, 114, 77);
+    color: rgba(255, 255, 255, 0.027);
+    margin: 10px;
+    border-radius: 6px;
+}
+.login_btn{
+    display: inline-block;
+    height: 100%;
+    width: 29%;
+    text-align: center;
+    vertical-align: top;
+}
+.nav_links ul{
+    margin: 0;
+}
+.list_items{
+    display: inline-block;
+    margin-right: 40px;
+}
+.list_items a{
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+}
+.login_btn a{
+    text-decoration: none;
+    background-color: rgb(241, 148, 94);
+    display:inline-block;
+    padding: 6px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 23px;
+}
+.login_btn a:hover{
+    background-color: rgb(58, 61, 250);
+}
+.product_img{
+    height: 650px;
+    background-image: url(./gaming.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: rgb(255, 115, 0);
+}
+.ovarlay{
+    height: 100%;
+    background-image: linear-gradient( rgb(0, 0, 0),transparent);
+}
