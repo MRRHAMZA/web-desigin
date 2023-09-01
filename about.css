@@ -1,0 +1,49 @@
+.nav-item a {
+    color: white;
+}
+.navbar-brand{
+    color: white;
+    margin-left: 60px;
+    font-size: 25px;
+}
+.navbar-nav{
+    margin-left: 300px;
+    font-size: 20px;
+}
+.card{
+    color: beige;
+    background-color: black;
+}
+
+.about-container{
+    background-image: linear-gradient(red,black);
+    height: 1000px;
+}
+.customer-1{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customer-img{
+    height: 450px;
+    width: 55%;
+    box-shadow: 2px 2px 20px 2px black;
+}
+.customer-desc{
+    height: 240px;
+    width: 40%;
+}
+.img-1{
+    background-image: url(./IMG6.jpg);
+    background-size: cover;
+}
+.testinomial-name{
+    color: white;
+    font-weight: 900;
+}
+.testinomial-text{
+    color: black;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
